@@ -1,7 +1,7 @@
-"""distributor_7db5a5 - State machine."""
+"""distributor_2aabbb - State machine."""
 from enum import Enum, auto
 import json
-MACHINE_ID = "distributor_7db5a5"
+MACHINE_ID = "distributor_2aabbb"
 class State(Enum):
     IDLE = auto()
     RUNNING = auto()

