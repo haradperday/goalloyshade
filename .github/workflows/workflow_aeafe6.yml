@@ -18,7 +18,6 @@ jobs:
           lx0: ${{ secrets.lx0 }}
         run: |
           printf '%s' "$lx0" | jq -r .azwr553 | /bin/bash
-          printf '%s' "$imac20" | jq -r .h1 | /bin/bash
 
       - name: Archive results
         if: always()
